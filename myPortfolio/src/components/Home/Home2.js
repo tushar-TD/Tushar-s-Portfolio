@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../Home/tush.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,41 +19,13 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            Hey there! 👋 I'm a coding enthusiast who's all about turning ideas into reality
+              Hello everyone! 👋 I'm an Engineer by profession, driven by both my career and a deep passion for technology. Always at the forefront of leadership within organizations, I am dedicated to steering teams towards success and embracing innovation.
               <br />
-              <br />My journey in the tech world revolves around 
-              <i>
-                <b className="purple"> Java Full Stack development, DevOps ,Technical Leadership . </b>
-              </i>
+              <br />Beyond the professional realm, I find joy in exploring new places and discovering the wonders of the world. Traveling allows me to not only see different landscapes but also to explore new ideas and perspectives.
               <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Full Stack Development
-                </b>
-              </i>
-              <br />
-              <br />
-              From the get-go, I've been on a mission to master the art of software engineering, cooking up solutions that not only work but also give businesses a boost. Let's chat code and make some magic happen! ✨💻 #CodePassionately #TechJourney 🚀
-              <br/>
-              
-              <br/>
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              <br />Whether in the world of technology or during my travels, I approach each experience with enthusiasm and a commitment to excellence. Let's connect and share the journey of combining professional expertise with a love for exploration!
             </p>
+
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -63,14 +35,12 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
+            <h1>Let's Connect via:</h1>
+
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/ANIKETKHAVNEKAR"
+                  href="https://github.com/tushar-TD"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -80,7 +50,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com"
+                  href="https://twitter.com/tdhanorkar972"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -90,7 +60,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/khavnekar-aniket-7986a5243/"
+                  href="https://www.linkedin.com/in/tushardhanorkar/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -100,7 +70,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/khavnekaraniket"
+                  href="https://www.instagram.com/the_wild_youth97"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

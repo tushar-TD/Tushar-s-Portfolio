@@ -6,10 +6,9 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Associate Engineer At Benison Technologies Pvt Ltd ... @Google acquiring Company",
-          "Proficient Full Stack Java ",
-          "Proficient MERN Stack ",
-          
+          "Currently! 👋 , I am actively seeking new job opportunities to further contribute my skills and passion in the field.",
+          "I thrive on challenges and am committed to making a positive impact through my work. ",
+          ,
         ],
         autoStart: true,
         loop: true,
